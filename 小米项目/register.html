@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册</title>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Css/register.css">
+    <script src="js/register.js"></script>
+    <script src="js/jquery-3.4.1.js"></script>
+</head>
+<body>
+    <div class="formreg">
+        <div class="logobox">
+            <img src="img/milogo.png" alt="">
+        </div>
+        <h2 class="form-title">注册小米账号</h2>
+        <div class="formitm">
+            <span>国家/地区</span>
+            <div class="inputbox">
+                <div class="box" onclick="shouc2()">
+                    <span>中国</span>
+                    <span class="ibicon">
+                        <i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <!-- 下拉框 -->
+                <div class="chekbox01">
+                    <input type="text" class="uptc1">
+                    <ul>
+                        <li class="det">A</li>
+                        <li class="idop">阿富汗</li>
+                        <li class="idop">阿尔及利亚</li>
+                        <li class="idop">阿尔巴尼亚</li>
+                    </ul>
+                    <ul>
+                        <li class="det">B</li>
+                        <li class="idop">比利时</li>
+                        <li class="idop">白俄罗斯</li>
+                        <li class="idop">孟加拉国</li>
+                    </ul>
+                    <ul>
+                        <li class="det">C</li>
+                        <li class="idop">加拿大</li>
+                        <li class="idop">中非</li>
+                        <li class="idop">中国</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="msg">成功注册账号后，国家/地区将不能被修改</div>
+        </div>
+
+        <div class="formitm">
+            <span>手机号码</span>
+            <div class="inputbox">
+                <div class="box">
+                    <span class="phoneIcon">+86
+                        <i class="fa fa-caret-down" aria-hidden="true"></i> 
+                    </span>
+                    <input type="text" class="phoninput" placeholder="请输入手机号">
+                </div>
+            </div>
+            <div class="msg phoneMsgBox">
+                <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+                <span class="phoneMsg">请输入手机号码</span>
+            </div>
+        </div>
+
+        <div>
+            <input type="button" value="立即注册" class="but" onclick="reg()">
+        </div>
+    </div>
+</body>
+</html>

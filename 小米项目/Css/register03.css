@@ -1,0 +1,67 @@
+html,body{
+    margin: 0px;
+    padding: 0px;
+}
+p{
+    margin: 5px 0px;
+    font-size: 15px;
+    color: #333333;
+}
+.phont{
+    color: #FF6700;
+}
+.formreg{
+    width: 360px;height: 420px;margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;  /*div 垂直居中*/
+}
+.logobox{
+     text-align: center;/*内容或文字水平居中 */
+}
+.form-title{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 400;
+}
+.formitm{
+    font-size: 14px;
+    color: #333333;
+    margin-bottom: 15px;
+}
+.inputbox{
+    margin: 6px 0px;  
+}
+.inputbox>input{
+    width: 350px;
+    height: 42px;
+    border: solid 1px #E8E8E8;
+    padding-left: 10px;
+    outline: none;
+    font-size: 15px;
+}
+.txt1{
+    margin-top: 15px;
+}
+.butreg{
+    margin: auto;
+    width: 360px;
+    height: 42px;
+    background-color: #FF6700;
+    color: white;
+    font-size: 15px;
+    border: none;/* 隐藏边框 */
+    cursor: pointer;/* 将鼠标变为手指 */
+    outline: none;
+    margin-top: 15px;
+
+}
+.butreg:hover{
+    opacity: 0.7;
+}
+.phoneMsgBox{
+    color: #FF6700;
+    display: none;
+}

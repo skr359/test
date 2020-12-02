@@ -1,0 +1,55 @@
+html,body{
+    margin: 0px;
+    padding: 0px;
+}
+ul,li{
+    list-style: none;
+}
+p{
+    margin: 5px 0px;
+    font-size: 15px;
+    color: #333333;
+}
+.formreg{
+    width: 360px;height: 420px;margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;  /*div 垂直居中*/
+}
+.logobox{
+     text-align: center;/*内容或文字水平居中 */
+}
+.form-title{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 400;
+}
+.butreg{
+    margin: auto;
+    width: 360px;
+    height: 42px;
+    background-color: #FF6700;
+    color: white;
+    font-size: 15px;
+    border: none;/* 隐藏边框 */
+    cursor: pointer;/* 将鼠标变为手指 */
+    outline: none;
+    margin-top: 15px;
+
+}
+.butreg:hover{
+    opacity: 0.7;
+}
+.zhong{
+    width: 360px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    color: #333333;
+}
+.suiji{
+    color: #FF6700;
+    
+}

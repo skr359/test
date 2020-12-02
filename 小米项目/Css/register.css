@@ -1,0 +1,128 @@
+html,body{
+    margin: 0px;
+    padding: 0px;
+}
+ul,li{
+    list-style: none;
+}
+.formreg{
+    width: 340px;height: 420px;margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;  /*div 垂直居中*/
+}
+.logobox{
+     text-align: center;/*内容或文字水平居中 */
+}
+.form-title{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 400;
+}
+.formitm{
+    font-size: 14px;
+    color: #333333;
+    margin-bottom: 15px;
+}
+.inputbox{
+    margin: 6px 0px;
+    position: relative;
+}
+.box{
+    height: 40px;
+    border: solid 1px #E8E8E8;
+    line-height: 40px;/* 垂直居中 */
+    text-indent: 10px;
+    cursor: pointer;
+}
+.ibicon{
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-left: solid 1px #E8E8E8;
+    text-indent: 0px;
+    text-align: center;
+    color: #777777;
+}
+.phoninput{
+    border: none;
+    outline: none;
+    height: 37px;
+    text-indent: 10px;
+}
+.phoneIcon{
+    width: 80px;
+    height: 40px;
+    display: inline-block;
+    border-right: solid 1px #E8E8E8;
+    line-height: 40px;
+}
+.phoneIcon>i{
+    position: relative;
+    top: -3px;
+}
+.but{
+    margin: auto;
+    width: 340px;
+    height: 42px;
+    background-color: #FF6700;
+    color: white;
+    font-size: 15px;
+    border: none;/* 隐藏边框 */
+    cursor: pointer;/* 将鼠标变为手指 */
+    outline: none;/*取消轮廓*/
+
+}
+.but:hover{
+    opacity: 0.7;
+}
+.chekbox01{
+    width: 338px;
+    height: 270px;
+    position: absolute;
+    top: 43px;
+    background-color: white;
+    z-index: 10;
+    display: none;
+    border: solid 1px #E8E8E8;
+    border-top: none;
+    overflow: auto;/* 下拉条 */
+
+}
+.chekbox01>ul{
+    padding: 0px 0px;
+}
+.uptc1{
+    width: 300px;
+    height: 35px;
+    border: solid 1px #E8E8E8;
+    outline: none;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.det{
+    background-color: #FCDECC;
+    color: #EF5B00;
+    line-height: 25px;/* 行高 */
+    margin: 5px 0px;
+}
+.idop{
+    line-height: 40px;
+    border-bottom: solid 1px #E8E8E8;
+    font-size: 14px;
+
+}
+.idop:hover{
+    cursor: pointer;
+    background-color: #E8E8E8;
+}
+
+.chekbox01>ul>li{
+    text-indent: 10px;/* 缩进 */
+}
+.phoneMsgBox{
+   color: #FF6F3D;
+   display: none;
+}

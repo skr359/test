@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul,li{
+    list-style: none;
+}
+header{
+    height: 98px;
+}
+section{
+    height: 588px;
+    background-image: url(../img/LoginBg.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+footer{
+    height: 180px;
+}
+.log3{
+    height: 100%;
+    width: 1130px;
+    margin: auto;
+    position: relative;
+}
+/* section内容css */
+.linginidx{
+    height: 556px;
+    width: 410px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background-color: white;
+}
+.logintxt{
+    font-size: 24px;
+    color: #444444;
+    height: 70px;
+    margin-bottom: 10px;
+}
+.logintxt>div{
+   width: 50%;
+   height: 70px;
+   text-align: center;
+   position: relative;
+   top: 23px;
+   cursor: pointer;
+}
+.logintxt>.color-left{
+    color: #ff6700;
+}
+.logintxt>div:hover{
+    color: #ff6700;
+}
+.log-left{
+    float: left;
+}
+.log-rigin{
+    float: right;
+}
+.log-left:after{
+    content: "";
+    width: 1px;
+    height: 29px;
+    display: inline-block;
+    background-color: #cacaca;
+    position: relative;
+    left: 50px;
+    top: 5px;
+}
+.logincont>div{
+    height: 485px;
+}
+.logincont>div:nth-of-type(2){
+    display: none;
+}
+.box{
+    margin: auto;
+    height: 114px;
+    width: 348px;
+}
+.box>input{
+    width: 348px;
+    height: 48px;
+    margin-bottom: 15px;
+    border: solid 1px #E0E0E0;
+    color: #9B9B9B;
+    text-indent: 15px;
+    outline: none;
+}
+.but{
+    width: 348px;
+    height: 50px;
+    margin: auto;
+}
+.but>input{
+    width: 100%;
+    height: 50px;
+    margin: 25px 0px;
+    background-color: #ff6700;
+    color: white;
+    border: none;
+    outline: none; /*取消轮廓*/
+    cursor: pointer;
+}
+.txt{
+    width: 348px;
+    height: 245px;
+    margin: auto;
+}
+.txt>p{
+    width: 100%;
+    text-align: center;
+    margin-top: 32px;
+    font-size: 14px;
+    color: #333333;
+    cursor: pointer;
+}
+.code{
+   width: 100%;
+   height: 350px;
+   position: relative;
+}
+.code>img{
+position: absolute;
+bottom: 0px;
+left: 115px;
+}
+.txt01{
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+}
+.txt01>p{
+    text-align: center;
+    margin: auto;
+    color: #888888;
+    font-size: 14px;
+}
+
+/* footer内容css*/
+.list1{
+    text-align: center;
+    font-size: 14px;
+    color: #666666;
+}
+.list1>ul{
+    margin-top: 79px;
+}
+.list1>ul>li{
+    display: inline-block; /* display表示转换类型*/
+    margin: 13px;
+}
+/* 
+a:not(元素calss)表示除了这个，包含剩下所有的
+a:before{}表是伪类元素，显示在原先内容的最前面
+*/
+.list1>ul>li:not(.top1):before{
+    content: "";
+    width: 1px;
+    height: 13px;
+    display: inline-block;
+    background-color: #666666;
+    position: relative;
+    left: -17px;
+    top: 2px;
+}
